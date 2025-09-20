@@ -5,6 +5,10 @@
 /* SCADA Industrial Design System - Modern Control Room Aesthetics */
 
 @layer base {
+  ::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
   :root {
     /* Industrial Light Theme */
     --background: 210 20% 98%;
