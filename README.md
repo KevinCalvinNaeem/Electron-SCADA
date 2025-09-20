@@ -1,3 +1,9 @@
+
+<p align="center">
+  <img src="./public/assets/logo.png" alt="App Logo" width="200"/>
+</p>
+
+
 # SCADA System Desktop App
 
 This project is a modern **SCADA (Supervisory Control and Data Acquisition)** system desktop application. It is built with **Electron, Vite, React, TypeScript, Tailwind CSS, and shadcn/ui**, providing a clean and responsive interface for industrial automation and process monitoring.  
