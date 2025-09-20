@@ -4,6 +4,7 @@ import { SidebarTrigger } from '@/components/ui/sidebar';
 import { useTheme } from '@/contexts/ThemeContext';
 import { Sun, Moon, Wifi, WifiOff, AlertTriangle } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
+import logo from '@/assets/logo.png';
 
 export const SCADAHeader: React.FC = () => {
   const { theme, toggleTheme } = useTheme();
@@ -14,9 +15,10 @@ export const SCADAHeader: React.FC = () => {
       <div className="flex items-center gap-4">
         <SidebarTrigger className="lg:hidden" />
         <div className="flex items-center gap-3">
-          <div className="h-8 w-8 rounded bg-primary flex items-center justify-center">
+          {/* {/* <div className="h-8 w-8 rounded bg-primary flex items-center justify-center">
             <div className="h-4 w-4 rounded-full bg-primary-foreground" />
-          </div>
+          </div> */}
+          <img src={logo} alt="logo" width={90} height={70} />
           <div>
             <h1 className="text-xl font-semibold text-foreground">SCADA Control System</h1>
             <p className="text-xs text-muted-foreground">Industrial Automation Platform</p>
