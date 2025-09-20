@@ -1,73 +1,94 @@
-# Welcome to your Lovable project
+# SCADA System Desktop App
 
-## Project info
+This project is a modern **SCADA (Supervisory Control and Data Acquisition)** system desktop application. It is built with **Electron, Vite, React, TypeScript, Tailwind CSS, and shadcn/ui**, providing a clean and responsive interface for industrial automation and process monitoring.  
 
-**URL**: https://lovable.dev/projects/938619e9-100e-4905-b1e3-6c8f57ff33e8
+You can work with this project in your local development environment.  
 
-## How can I edit this code?
+### Requirements
+- **Node.js & npm** installed ([Install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating))
 
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/938619e9-100e-4905-b1e3-6c8f57ff33e8) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
+### Setup
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Clone the repository
+git clone https://github.com/KevinCalvinNaeem/Electron-SCADA.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to the project directory
+cd Electron-SCADA
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Running the App
+```sh
+#Run the Electron app in development mode
+npm run dev
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+#Run the web UI only (without Electron)
+npm run dev:web
 
-**Use GitHub Codespaces**
+#Preview the built web UI
+npm run preview:web
+```
+### Building the App
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```sh
+#Build the Electron app
+npm run build
 
-## What technologies are used for this project?
+#Build the web UI for production
+npm run build:web
 
-This project is built with:
+#Build the web UI in development mode
+npm run build:web:dev
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Packaging for Distribution
+```sh
+# Build and package into an installer (Windows, macOS, Linux)
+npm run package
+```
+### Available Scripts
+```json
+"scripts": {
+  "dev:web": "vite",
+  "build:web": "vite build",
+  "build:web:dev": "vite build --mode development",
+  "preview:web": "vite preview",
+  "lint": "eslint .",
 
-## How can I deploy this project?
+  "dev": "electron-vite dev",
+  "build": "electron-vite build",
+  "preview": "electron-vite preview",
+  "package": "npm run build && electron-builder"
+}
+```
 
-Simply open [Lovable](https://lovable.dev/projects/938619e9-100e-4905-b1e3-6c8f57ff33e8) and click on Share -> Publish.
+### Technologies Used
 
-## Can I connect a custom domain to my Lovable project?
+- Electron – desktop app framework
 
-Yes, you can!
+- Vite – fast build tool
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- React – UI framework
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- TypeScript – type safety
+
+- Tailwind CSS – utility-first styling
+
+- shadcn/ui – modern, accessible UI components
+
+To package the application into installers/binaries for your operating system, run npm run package. This will generate cross-platform executables (Windows, macOS, Linux) in the dist directory.
+
+✨ With this setup, you get a modern SCADA desktop application with responsive UI, cross-platform support, and smooth performance.
+
+## Preview
+
+![App Screenshot](./public/assets/Home.png)
+---
+![App Screenshot](./public/assets/Recipe.png)
+---
+![App Screenshot](./public/assets/Parameters.png)
+---
+![App Screenshot](./public/assets/Report.png)
