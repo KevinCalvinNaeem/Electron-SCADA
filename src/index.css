@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* SCADA Industrial Design System - Modern Control Room Aesthetics */
+
+@layer base {
+  :root {
+    /* Industrial Light Theme */
+    --background: 210 20% 98%;
+    --foreground: 215 25% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 15%;
+
+    /* Industrial Blue Primary */
+    --primary: 200 85% 45%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 200 85% 40%;
+
+    /* Control Panel Secondary */
+    --secondary: 210 30% 92%;
+    --secondary-foreground: 215 25% 25%;
+
+    --muted: 210 25% 95%;
+    --muted-foreground: 215 15% 50%;
+
+    --accent: 195 75% 50%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Status Indicators */
+    --status-running: 120 60% 45%;
+    --status-warning: 45 90% 55%;
+    --status-error: 0 75% 55%;
+    --status-stopped: 220 15% 60%;
+
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 215 20% 85%;
+    --input: 215 20% 92%;
+    --ring: 200 85% 45%;
+
+    /* SCADA Specific */
+    --control-panel: 210 25% 96%;
+    --indicator-glow: 200 85% 45%;
+    --data-grid: 0 0% 100%;
+    --parameter-bg: 210 30% 94%;
+
+    --radius: 0.375rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Industrial Dark Theme - Control Room Environment */
+    --background: 215 25% 8%;
+    --foreground: 210 15% 92%;
+
+    --card: 215 20% 12%;
+    --card-foreground: 210 15% 92%;
+
+    --popover: 215 20% 12%;
+    --popover-foreground: 210 15% 92%;
+
+    /* Bright Industrial Blue for Dark Mode */
+    --primary: 200 90% 60%;
+    --primary-foreground: 215 25% 8%;
+    --primary-hover: 200 90% 65%;
+
+    /* Dark Control Panel */
+    --secondary: 215 20% 16%;
+    --secondary-foreground: 210 15% 85%;
+
+    --muted: 215 20% 14%;
+    --muted-foreground: 215 10% 65%;
+
+    --accent: 195 80% 65%;
+    --accent-foreground: 215 25% 8%;
+
+    /* Enhanced Status Indicators for Dark Mode */
+    --status-running: 120 65% 55%;
+    --status-warning: 45 95% 65%;
+    --status-error: 0 80% 65%;
+    --status-stopped: 220 20% 70%;
+
+    --destructive: 0 80% 65%;
+    --destructive-foreground: 215 25% 8%;
+
+    --border: 215 20% 20%;
+    --input: 215 20% 16%;
+    --ring: 200 90% 60%;
+
+    /* SCADA Dark Specific */
+    --control-panel: 215 20% 14%;
+    --indicator-glow: 200 90% 60%;
+    --data-grid: 215 20% 12%;
+    --parameter-bg: 215 20% 16%;
+
+    /* Sidebar Dark Theme */
+    --sidebar-background: 215 25% 10%;
+    --sidebar-foreground: 210 15% 85%;
+    --sidebar-primary: 200 90% 60%;
+    --sidebar-primary-foreground: 215 25% 8%;
+    --sidebar-accent: 215 20% 16%;
+    --sidebar-accent-foreground: 210 15% 85%;
+    --sidebar-border: 215 20% 18%;
+    --sidebar-ring: 200 90% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

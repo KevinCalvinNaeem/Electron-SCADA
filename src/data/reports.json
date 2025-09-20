@@ -1,0 +1,43 @@
+{
+  "dailyProduction": [
+    { "date": "2024-01-01", "production": 245, "batches": 72, "efficiency": 92 },
+    { "date": "2024-01-02", "production": 289, "batches": 85, "efficiency": 94 },
+    { "date": "2024-01-03", "production": 267, "batches": 78, "efficiency": 89 },
+    { "date": "2024-01-04", "production": 312, "batches": 91, "efficiency": 96 },
+    { "date": "2024-01-05", "production": 298, "batches": 87, "efficiency": 93 },
+    { "date": "2024-01-06", "production": 234, "batches": 68, "efficiency": 88 },
+    { "date": "2024-01-07", "production": 276, "batches": 81, "efficiency": 91 },
+    { "date": "2024-01-08", "production": 325, "batches": 95, "efficiency": 97 },
+    { "date": "2024-01-09", "production": 287, "batches": 84, "efficiency": 92 },
+    { "date": "2024-01-10", "production": 301, "batches": 88, "efficiency": 94 },
+    { "date": "2024-01-11", "production": 295, "batches": 86, "efficiency": 93 },
+    { "date": "2024-01-12", "production": 278, "batches": 82, "efficiency": 90 },
+    { "date": "2024-01-13", "production": 319, "batches": 93, "efficiency": 95 },
+    { "date": "2024-01-14", "production": 288, "batches": 85, "efficiency": 92 },
+    { "date": "2024-01-15", "production": 305, "batches": 89, "efficiency": 94 }
+  ],
+  "vehicleData": [
+    {
+      "vehicleNo": "APL-2024-15A",
+      "batches": [
+        { "batchNo": 1, "agg1": 850, "agg2": 1250, "agg3": 680, "agg4": 430, "bitumen": 190, "filler": 100, "total": 3500, "timestamp": "2024-01-15T08:15:00Z" },
+        { "batchNo": 2, "agg1": 848, "agg2": 1252, "agg3": 682, "agg4": 428, "bitumen": 192, "filler": 98, "total": 3500, "timestamp": "2024-01-15T08:22:00Z" },
+        { "batchNo": 3, "agg1": 852, "agg2": 1248, "agg3": 678, "agg4": 432, "bitumen": 188, "filler": 102, "total": 3500, "timestamp": "2024-01-15T08:29:00Z" }
+      ]
+    },
+    {
+      "vehicleNo": "BPL-2024-22B", 
+      "batches": [
+        { "batchNo": 1, "agg1": 851, "agg2": 1249, "agg3": 681, "agg4": 429, "bitumen": 191, "filler": 99, "total": 3500, "timestamp": "2024-01-15T09:15:00Z" },
+        { "batchNo": 2, "agg1": 849, "agg2": 1251, "agg3": 679, "agg4": 431, "bitumen": 189, "filler": 101, "total": 3500, "timestamp": "2024-01-15T09:22:00Z" }
+      ]
+    }
+  ],
+  "aggregateConsumption": [
+    { "date": "2024-01-01", "agg1": 12450, "agg2": 18200, "agg3": 9890, "agg4": 6340 },
+    { "date": "2024-01-02", "agg1": 14560, "agg2": 21300, "agg3": 11560, "agg4": 7420 },
+    { "date": "2024-01-03", "agg1": 13200, "agg2": 19850, "agg3": 10780, "agg4": 6890 },
+    { "date": "2024-01-04", "agg1": 15780, "agg2": 23100, "agg3": 12540, "agg4": 8020 },
+    { "date": "2024-01-05", "agg1": 14890, "agg2": 21800, "agg3": 11820, "agg4": 7560 }
+  ]
+}

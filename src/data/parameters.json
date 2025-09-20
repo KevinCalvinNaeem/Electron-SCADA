@@ -1,0 +1,130 @@
+{
+  "categories": [
+    {
+      "name": "Aggregate Timers",
+      "icon": "clock",
+      "parameters": [
+        {
+          "id": "agg1_2_on_time",
+          "name": "Agg 1-2 On Time",
+          "value": 8.5,
+          "min": 5.0,
+          "max": 15.0,
+          "unit": "sec",
+          "type": "slider"
+        },
+        {
+          "id": "agg2_3_on_time", 
+          "name": "Agg 2-3 On Time",
+          "value": 12.0,
+          "min": 8.0,
+          "max": 20.0,
+          "unit": "sec",
+          "type": "slider"
+        },
+        {
+          "id": "agg3_4_on_time",
+          "name": "Agg 3-4 On Time", 
+          "value": 6.5,
+          "min": 4.0,
+          "max": 12.0,
+          "unit": "sec",
+          "type": "slider"
+        }
+      ]
+    },
+    {
+      "name": "Mixing Timers",
+      "icon": "timer",
+      "parameters": [
+        {
+          "id": "dry_mixing_time",
+          "name": "Dry Mixing Time",
+          "value": 45,
+          "min": 30,
+          "max": 90,
+          "unit": "sec",
+          "type": "slider"
+        },
+        {
+          "id": "wet_mixing_time",
+          "name": "Wet Mixing Time", 
+          "value": 60,
+          "min": 40,
+          "max": 120,
+          "unit": "sec",
+          "type": "slider"
+        },
+        {
+          "id": "total_mixing_time",
+          "name": "Total Mixing Time",
+          "value": 105,
+          "min": 70,
+          "max": 200, 
+          "unit": "sec",
+          "type": "slider"
+        }
+      ]
+    },
+    {
+      "name": "Bitumen System",
+      "icon": "droplet",
+      "parameters": [
+        {
+          "id": "bitumen_temp_setpoint",
+          "name": "Bitumen Temperature",
+          "value": 155,
+          "min": 140,
+          "max": 170,
+          "unit": "°C",
+          "type": "slider"
+        },
+        {
+          "id": "bitumen_pump_time", 
+          "name": "Bitumen Pump Time",
+          "value": 8.2,
+          "min": 5.0,
+          "max": 15.0,
+          "unit": "sec",
+          "type": "slider"
+        },
+        {
+          "id": "bitumen_auto_mode",
+          "name": "Auto Bitumen Mode",
+          "value": true,
+          "type": "toggle"
+        }
+      ]
+    },
+    {
+      "name": "System Control",
+      "icon": "settings", 
+      "parameters": [
+        {
+          "id": "auto_cycle_enable",
+          "name": "Auto Cycle Enable",
+          "value": true,
+          "type": "toggle"
+        },
+        {
+          "id": "batch_tolerance",
+          "name": "Batch Weight Tolerance",
+          "value": 2.5,
+          "min": 1.0,
+          "max": 5.0,
+          "unit": "%",
+          "type": "slider"
+        },
+        {
+          "id": "discharge_gate_delay",
+          "name": "Discharge Gate Delay",
+          "value": 3.0,
+          "min": 1.0,
+          "max": 8.0,
+          "unit": "sec", 
+          "type": "slider"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "systemOverview": {
+    "status": "running",
+    "operationalTime": "47h 23m",
+    "currentVehicle": "APL-2024-15A",
+    "totalProduction": "2,847 tons",
+    "currentBatch": 12,
+    "batchSetValue": 15,
+    "efficiency": 94
+  },
+  "modules": [
+    {
+      "id": "agg1_feeder",
+      "name": "Aggregate 1 Feeder",
+      "location": "Cold Feed Bin 1",
+      "status": "running",
+      "value": "850",
+      "unit": "kg",
+      "setpoint": "875"
+    },
+    {
+      "id": "agg2_feeder",
+      "name": "Aggregate 2 Feeder", 
+      "location": "Cold Feed Bin 2",
+      "status": "running",
+      "value": "1240",
+      "unit": "kg",
+      "setpoint": "1250"
+    },
+    {
+      "id": "agg3_feeder",
+      "name": "Aggregate 3 Feeder",
+      "location": "Cold Feed Bin 3", 
+      "status": "running",
+      "value": "670",
+      "unit": "kg",
+      "setpoint": "680"
+    },
+    {
+      "id": "agg4_feeder",
+      "name": "Aggregate 4 Feeder",
+      "location": "Cold Feed Bin 4",
+      "status": "running", 
+      "value": "420",
+      "unit": "kg",
+      "setpoint": "430"
+    },
+    {
+      "id": "bitumen_system",
+      "name": "Bitumen System",
+      "location": "Hot Oil System",
+      "status": "running",
+      "value": "185",
+      "unit": "kg",
+      "setpoint": "190"
+    },
+    {
+      "id": "filler_system", 
+      "name": "Filler System",
+      "location": "Filler Silo",
+      "status": "running",
+      "value": "95",
+      "unit": "kg", 
+      "setpoint": "100"
+    }
+  ],
+  "alarms": [
+    {
+      "id": "alarm_001",
+      "message": "Aggregate 2 weight deviation detected",
+      "severity": "warning", 
+      "timestamp": "2024-01-15T14:23:00Z",
+      "acknowledged": false
+    },
+    {
+      "id": "alarm_002",
+      "message": "Bitumen temperature slightly high",
+      "severity": "warning",
+      "timestamp": "2024-01-15T14:18:00Z", 
+      "acknowledged": true
+    },
+    {
+      "id": "alarm_003",
+      "message": "Mixer cycle completed successfully",
+      "severity": "info",
+      "timestamp": "2024-01-15T14:15:00Z",
+      "acknowledged": true
+    }
+  ]
+}

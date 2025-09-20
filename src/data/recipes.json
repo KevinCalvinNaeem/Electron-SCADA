@@ -1,0 +1,79 @@
+{
+  "recipes": [
+    {
+      "id": "recipe_001",
+      "name": "Dense Bituminous Macadam (DBM)",
+      "description": "Standard DBM mix for road base course",
+      "isActive": true,
+      "createdDate": "2024-01-10",
+      "modifiedDate": "2024-01-15", 
+      "parameters": {
+        "agg1_sp": 850,
+        "agg1_fac": 1.02,
+        "agg2_sp": 1250, 
+        "agg2_fac": 0.98,
+        "agg3_sp": 680,
+        "agg3_fac": 1.01,
+        "agg4_sp": 430,
+        "agg4_fac": 0.99,
+        "bitumen_sp": 190,
+        "bitumen_fac": 1.05,
+        "filler_sp": 100,
+        "filler_fac": 1.00,
+        "total_weight": 3500,
+        "mixing_temp": 155,
+        "discharge_temp": 145
+      }
+    },
+    {
+      "id": "recipe_002", 
+      "name": "Bituminous Concrete (BC)",
+      "description": "High grade BC mix for wearing course",
+      "isActive": false,
+      "createdDate": "2024-01-08",
+      "modifiedDate": "2024-01-12",
+      "parameters": {
+        "agg1_sp": 920,
+        "agg1_fac": 1.00,
+        "agg2_sp": 1100,
+        "agg2_fac": 1.02, 
+        "agg3_sp": 750,
+        "agg3_fac": 0.98,
+        "agg4_sp": 520,
+        "agg4_fac": 1.01,
+        "bitumen_sp": 210,
+        "bitumen_fac": 1.03,
+        "filler_sp": 120,
+        "filler_fac": 0.99,
+        "total_weight": 3620,
+        "mixing_temp": 160,
+        "discharge_temp": 150
+      }
+    },
+    {
+      "id": "recipe_003",
+      "name": "Semi Dense Bituminous Concrete (SDBC)",
+      "description": "SDBC mix for binder course",
+      "isActive": false, 
+      "createdDate": "2024-01-05",
+      "modifiedDate": "2024-01-10",
+      "parameters": {
+        "agg1_sp": 780,
+        "agg1_fac": 1.01,
+        "agg2_sp": 1320,
+        "agg2_fac": 0.99,
+        "agg3_sp": 620,
+        "agg3_fac": 1.00,
+        "agg4_sp": 380,
+        "agg4_fac": 1.02,
+        "bitumen_sp": 175,
+        "bitumen_fac": 1.04,
+        "filler_sp": 85,
+        "filler_fac": 1.01,
+        "total_weight": 3360,
+        "mixing_temp": 152,
+        "discharge_temp": 142
+      }
+    }
+  ]
+}
