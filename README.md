@@ -86,13 +86,23 @@ To package the application into installers/binaries for your operating system, r
 ## Preview
 
 ### Home Screen
+
 ![App Screenshot](./public/assets/Home.png)
+
 ---
+
 ### parameters Screen
+
 ![App Screenshot](./public/assets/Parameters.png)
+
 ---
+
 ### Recipe Screen
+
 ![App Screenshot](./public/assets/Recipe.png)
+
 ---
+
 ### Report Screen
+
 ![App Screenshot](./public/assets/Report.png)
